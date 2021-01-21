@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Props</title>
+    <link rel="icon" href="images/funnyfavicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Movie Props</h1>
+        <p><b>Grab your favourite Movie Props here!!!</b></p>
+    </section>
+
+    <section>
+        <div>
+            <h2><pre>Home               Consign or Sell             New addition                About us                Contact us</pre>
+                
+        </div>
+
+    </section>
+    
+    
+    <section>
+        <div>
+            <form action="">
+                <label for="movie"><strong>Movies</strong></label>
+                <select name="movie" id="movie">
+                    <option value="all movies"><strong>All movies</strong></option>
+                    <option value="avengers"><strong>Avengers</strong></option>
+                    <option value="jumanji"><strong>Jumanji</strong></option>
+                    <option value="Pirates"><strong>Pirates Of The Caribbean</strong></option>
+                </select>
+            </form>
+        </div>
+
+        <div>
+            <form action="">
+                <label for="location"><strong>Location:</strong></label>
+                <input type="radio" id="U.K" name="location" value="U.K">
+                <label for="U.K">U.K</label>
+                <input type="radio" id="U.S" name="location" value="U.S">
+                <label for="U.S">U.S</label>
+                <input type="radio" id="other" name="location" value="other">
+                <label for="other">Others</label>
+            
+            </form>
+        
+        </div>
+        
+        <div>
+            <form action="">
+                <label for="sort"><strong>Sort by</strong></label>
+                <select name="sort" id="sort">
+                    <option value="newest first">Newest first</option>
+                    <option value="oldest first">Oldest first</option>
+                    <option value="by movie">By movie</option>
+                    <option value="by price">By price</option>
+                </select>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div>
+        <figure>
+            <img src="images/captain_america_shield.jpg" alt="" height="200" width="200"><br>
+            <caption>Shield of Captain America used in Age of ultron. <br>
+                    Price:$200</caption>
+        </figure>
+        </div>
+
+        <div>
+            <figure>
+                <img src="images/infinity_stones.jpg" alt="" height="200" width="200"><br>
+                <caption>Infinity stones used in Infinity war. <br>
+                        Price:$1000</caption>
+            </figure>
+            </div>
+            
+            <div>
+                <figure>
+                    <img src="images/jumanji game board.jpg" alt="" height="200" width="200"><br>
+                    <caption>Game board used in Jumanji <br>
+                           Price:<del>$200</del><ins>  $170</ins></caption>
+                </figure>
+                </div>
+
+    </section>
+
+    <section>
+        <div>
+            <form action="">
+               <fieldset>
+                   <legend><b>Register:</b></legend>
+                       <label for="name"><strong>Name:</strong></label>
+                       <input type="text" placeholder="Type your name..." id="name" name="name"><br><br>
+                       <label for="email"><strong>Email Address:</strong></label>
+                       <input type="email" id="email" name="email"><br><br>
+                       <label for="password"><strong>Password:</strong></label>
+                       <input type="password" id="password" name="password"><br><br>
+                       <label for="birthday"><strong>Date of Birth:</strong></label>
+                       <input type="date" id="birthday" name="birthday"><br><br>
+                       <label for="country"><strong>Country</strong></label>
+                       <select name="country" id="country">
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="United States">United States</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                        <br><br>
+                        <label for="textarea"><strong>Where did you hear about us:</strong></label>
+                        <textarea name="textarea" id="textarea" cols="15" rows="1"></textarea><br><br>
+                       
+                       <input type="checkbox" id="check" name="check">
+                       <label for="check"><strong>I'm not a robot</strong></label><br><br>
+                       
+                       <input type="submit" value="Submit">
+
+                   
+               </fieldset>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
